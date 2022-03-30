@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class AppImages {
   static const String _path = 'assets/images';
 
-  ///Fitnes girl image
+  ///Logo image
   static const AssetImage logo = AssetImage('$_path/logo.png');
 
   AppImages._();
