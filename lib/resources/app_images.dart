@@ -9,4 +9,5 @@ class AppImages {
   static const AssetImage logo = AssetImage('$_path/logo.png');
 
   AppImages._();
+
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tbr_task/pages/authorization/auth_screen.dart';
 import 'package:tbr_task/pages/splash/splash_screen.dart';
 
 ///Custom route handler
@@ -9,6 +10,10 @@ class RouteGenerator {
       case SplashScreen.routeName:
         return MaterialPageRoute<Widget>(
           builder: (context) => const SplashScreen(),
+        );
+      case AuthScreen.routeName:
+        return MaterialPageRoute<Widget>(
+          builder: (context) => const AuthScreen(),
         );
       default:
         return _errorRoute();

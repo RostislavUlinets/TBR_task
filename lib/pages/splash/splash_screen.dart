@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tbr_task/pages/authorization/auth_screen.dart';
 import 'package:tbr_task/resources/app_images.dart';
 
 ///Spash Screen
@@ -14,7 +15,7 @@ class SplashScreen extends StatelessWidget {
     Future.delayed(
       const Duration(seconds: 3),
       () {
-        // Navigator.pushNamed(context, WelcomeScreen.routeName);
+        Navigator.pushNamed(context, AuthScreen.routeName);
       },
     );
 
